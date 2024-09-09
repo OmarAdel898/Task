@@ -1,0 +1,25 @@
+.skills{
+  color: white;
+  height: 700px;
+  .bars{
+
+    .bar{
+      height: 40px;
+      border-radius: 4px;
+      color: black;
+      .title{
+        background-color: rgb(135, 135, 135);
+        color: white;
+      }
+      .bg{
+        background-color: bisque;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills{
+    height: 900px;
+  }
+  }

@@ -1,0 +1,17 @@
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    &:hover{
+      background-color: white;
+      color: black;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .intouch,.social{
+        width: 100%;
+        text-align: center;
+      }
+
+      }

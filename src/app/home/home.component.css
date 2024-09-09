@@ -1,0 +1,35 @@
+
+
+
+.bg
+{
+  background-image: url(../../../public/img/bg.jpeg);
+  background-size: 120%;
+  background-position-x: -4%  ;
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  h1{
+    font-size: 60px;
+  }
+  .text{
+    height: 100%;
+  .btn-secondary{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    &:hover{
+      background-color: white;
+      color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+.bg{
+  height: fit-content;
+}
+}

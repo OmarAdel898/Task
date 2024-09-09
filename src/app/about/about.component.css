@@ -1,0 +1,19 @@
+.about
+{
+  .txt{
+    h2{
+      font-size: 60px;
+      text-shadow: 7px 4px 1px #00000047;
+        }
+  }
+  .right{
+    p{
+      line-height: 2;
+    }
+    .btn-secondary{
+      padding: 10px 20px;
+      border-radius: 5px;
+      background: #121212;
+    }
+  }
+}
